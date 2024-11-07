@@ -1,0 +1,10 @@
+DEC-GEP Tool: Differential Evolutionary Chromosomal Gene Expression Programming
+Brief Introduction:
+This document introduces the Differential Evolutionary Chromosomal Gene Expression Programming tool (DEC-GEP). This tool was developed for data-driven symbolic regression applications.  The DEC-GEP optimizes a complete genotype of expression trees for mathematical model synthesis with their constant coefficients from a training dataset. To illustrate an application of the DEC-GEP algorithm in a real-world data-driven modeling application, a symbolic regression model for the soft calibration of e-nose (the low-cost, solid state multisensor array measurements) is shown. You can define your custom functions and operators in DEC-GEP.
+More details and citation for this tool:
+Citation for this tool:
+[1] Ari, D., Alagoz, B. B. (2023). A differential evolutionary chromosomal gene expression programming technique for electronic nose applications. Applied Soft Computing, 136, 110093. https://doi.org/10.1016/j.asoc.2023.110093
+
+What is GEP and Symbolic Regression?
+Gene expression programming (GEP) is an evolutionary algorithm that aims to produce computer programs or mathematical models from data sets. GEP is a genotype–phenotype evolutionary scheme that benefits from a linear, symbolic string (chromosome code) of fixed length in order to encode a genome of the program or mathematical model. Although its fixed length chromosome code, it can express variable, complex phenotypes of symbolic models (mathematical models, computer programs etc.)
+One of the prominent applications of GEP is the symbolic regression that yields mathematical models for mathematical relation between input and output parameters. It directly synthesizes equations that formulize mathematical relationships between input and output data from the real-world systems. Therefore, the GEP is capable of exploring mathematical relations between parameters from datasets, and this task is commonly known as symbolic regression. Symbolic regression models express the solution with mathematical symbols and structures.
